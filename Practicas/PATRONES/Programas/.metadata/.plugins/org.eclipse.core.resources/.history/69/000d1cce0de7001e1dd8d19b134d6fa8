@@ -1,0 +1,13 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+public class reTweet {
+	private tweet reTweet;
+	
+	public reTweet (tweet re) {
+		this.reTweet = re;
+	}
+	
+	public void eliminarTweet() {
+		this.reTweet.
+	}
+}

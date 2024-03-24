@@ -1,0 +1,9 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+public class User {
+	private String screenName;
+	private List tweets;
+	private List Retweets;
+	
+	
+}

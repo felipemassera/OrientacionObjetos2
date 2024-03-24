@@ -1,0 +1,42 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class User {
+	private String screenName;
+	private List <Tweet> tweets;
+	private List <Tweet> reTweets;
+	
+	public User (String screenName) {
+		this.screenName= screenName;
+		this.reTweets = new ArrayList<>();
+		this.tweets = new ArrayList<>();
+	}
+	
+	public String getName() {
+		return this.screenName;
+	}
+
+	public boolean newTweet(String text) {
+		boolean done =false;
+		if ((text.length()>0) && (text.length() <= 280)) {
+			this.tweets.add(new Tweet(text));
+			done =true;
+		}
+		return done;
+	}
+	
+	public void newReTweet(Tweet tweet) {
+		this.reTweets.add(tweet);
+	}
+	
+	public boolean deleteUser() {
+		boolean done= false;
+		
+		
+		return done;
+	}
+	
+	
+}

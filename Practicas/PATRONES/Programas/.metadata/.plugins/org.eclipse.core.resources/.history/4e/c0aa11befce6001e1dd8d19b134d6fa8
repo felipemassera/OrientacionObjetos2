@@ -1,0 +1,10 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+public class Twitter {
+
+	private List usuarios;
+
+	
+	
+	
+}

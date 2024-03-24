@@ -1,0 +1,12 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+import java.util.List;
+
+public class Twitter {
+
+	private List<E> usuarios;
+
+	
+	
+	
+}

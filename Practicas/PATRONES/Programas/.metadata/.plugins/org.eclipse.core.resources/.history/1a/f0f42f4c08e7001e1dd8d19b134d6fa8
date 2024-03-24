@@ -1,0 +1,27 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class User {
+	private String screenName;
+	private List <tweet> tweets;
+	private List <reTweet> reTweets;
+	
+	public User (String screenName) {
+		this.screenName= screenName;
+		this.reTweets = new ArrayList<>();
+		this.tweets = new ArrayList<>();
+	}
+	
+	public String getName() {
+		return this.screenName;
+	}
+
+	public void newTweet(String text) {
+		
+		if ((text.length()>1) && (text.length() <= 280)) {
+			
+		}
+	}
+}

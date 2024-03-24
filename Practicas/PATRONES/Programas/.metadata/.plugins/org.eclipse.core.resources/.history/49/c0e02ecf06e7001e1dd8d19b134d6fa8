@@ -1,0 +1,11 @@
+package ar.edu.info.unlp.ejercicioDemo;
+
+import java.util.List;
+
+public class User {
+	private String screenName;
+	private List <tweet> tweets;
+	private List <reTweet> reTweets;
+	
+	
+}
