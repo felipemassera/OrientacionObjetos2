@@ -1,6 +1,0 @@
-package ar.edu.info.unlp.ejercicioDemo;
-
-public class GameSystem {
-	Move move1;
-	Move move2;
-}
