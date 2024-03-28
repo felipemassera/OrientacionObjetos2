@@ -2,7 +2,7 @@ package ar.edu.info.unlp.ejercicioDemo;
 
 public abstract class Empleado {
 
-	protected Double sueldo() {
+	protected double sueldo() {
 		return this.calcularAdicional() + this.calcularSueldoBasico() - this.calcularDescuentos();
 	}
 

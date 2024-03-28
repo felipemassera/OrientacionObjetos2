@@ -1,12 +1,13 @@
 package ar.edu.info.unlp.ejercicioDemo;
 
-public class EmpleadoPasante extends Empleado{
-	
-	private int cantidadExamenesRendidos;
-	
-	public EmpleadoPasante(int cantidadExamenesRendidos) {
-		this.cantidadExamenesRendidos = cantidadExamenesRendidos;
+public class EmpleadoPasante extends Empleado {
+
+	private int cantidadExamenes;
+
+	public EmpleadoPasante(int examenes) {
+		this.cantidadExamenes = examenes;
 	}
+
 	@Override
 	protected double calcularSueldoBasico() {
 		return 20000;
@@ -14,7 +15,7 @@ public class EmpleadoPasante extends Empleado{
 
 	@Override
 	protected double calcularAdicional() {
-		return this.cantidadExamenesRendidos * 2000;
+		return this.cantidadExamenes * 2000;
 	}
-		
+
 }
