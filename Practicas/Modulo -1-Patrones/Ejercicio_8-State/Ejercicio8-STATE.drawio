@@ -1,0 +1,121 @@
+<mxfile host="Electron" modified="2024-04-28T22:01:51.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mfMTf_RnbZfoXvpST7XG" version="24.0.4" type="device">
+  <diagram name="Página-1" id="rnQ-FR-HW7EkudksvXDS">
+    <mxGraphModel dx="874" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="elaqadn__Zsb7Rm-6npa-1" value="Excursion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="230" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-2" value="- nombre: String&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- fechaInicio : Date&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- fechaFin : Date&lt;/div&gt;&lt;div&gt;- puntoEncuentro : String&lt;/div&gt;&lt;div&gt;- costo : Real&lt;/div&gt;&lt;div&gt;- cupoMin : Integer&lt;/div&gt;&lt;div&gt;- cupoMax : Integer&lt;/div&gt;&lt;div&gt;- info : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-1">
+          <mxGeometry y="26" width="230" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-1">
+          <mxGeometry y="150" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-4" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; Excursion(name: String, pEncuentro: String, costo:Real, cMin:Integer, cMax: Integer, info:String)&lt;div&gt;+ anotarse()&lt;/div&gt;&lt;div&gt;+ getInfo()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getEstado() : State&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ changeEstado (estado : State)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getFechaInicio () : Date&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ set&lt;span style=&quot;background-color: initial;&quot;&gt;FechaInicio&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getFechaFin () : Date&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setFechaFin()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-1">
+          <mxGeometry y="158" width="230" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-5" value="&amp;lt;abstract&amp;gt; State" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="240" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-11" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; State(toDoItem : ToDoItem)&lt;div&gt;+ start ()&lt;/div&gt;&lt;div&gt;+ togglePause()&lt;/div&gt;&lt;div&gt;+ finish ()&lt;/div&gt;&lt;div&gt;+ workedTime (): Date&lt;/div&gt;&lt;div&gt;+ addComment(comment : String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-5">
+          <mxGeometry y="26" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-12" value="- estado" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" source="elaqadn__Zsb7Rm-6npa-2" target="elaqadn__Zsb7Rm-6npa-5">
+          <mxGeometry x="-0.434" y="23" relative="1" as="geometry">
+            <mxPoint x="280" y="213" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-13" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="elaqadn__Zsb7Rm-6npa-12">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="40" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-16" value="# toDoItem" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="elaqadn__Zsb7Rm-6npa-5" target="elaqadn__Zsb7Rm-6npa-1">
+          <mxGeometry x="0.0337" y="-30" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-17" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="elaqadn__Zsb7Rm-6npa-16">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-240" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-18" value="Pending" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-34" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; Pending(toDoItem : ToDoItem)&lt;div&gt;+ start ()&lt;/div&gt;&lt;div&gt;+ workedTime (): Date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-18">
+          <mxGeometry y="26" width="200" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-22" value="InProgress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-56" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; InProgress(toDoItem : ToDoItem)&lt;div&gt;+ togglePause ()&lt;/div&gt;&lt;div&gt;+ finish ()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-22">
+          <mxGeometry y="26" width="200" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-26" value="Paused" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-35" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; Paused(toDoItem : ToDoItem)&lt;div&gt;+ togglePause ()&lt;/div&gt;&lt;div&gt;+ finish ()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-26">
+          <mxGeometry y="26" width="170" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-30" value="Finished" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#60a917;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-54" value="+&amp;lt;&amp;lt;Create&amp;gt;&amp;gt; Finished(toDoItem : ToDoItem)&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ workedTime (): Date&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ addComment(comment : String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;div style=&quot;color: rgb(170, 170, 170); font-family: Consolas; font-size: 10pt; white-space: pre;&quot;&gt;&lt;p style=&quot;background-color:#373737;margin:0;&quot;&gt;&lt;span style=&quot;color:#d9e8f7;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="elaqadn__Zsb7Rm-6npa-30">
+          <mxGeometry y="26" width="190" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-42" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="elaqadn__Zsb7Rm-6npa-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="380" as="sourcePoint" />
+            <mxPoint x="580" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-45" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" target="elaqadn__Zsb7Rm-6npa-5">
+          <mxGeometry x="0.1111" width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="340" as="sourcePoint" />
+            <mxPoint x="720" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-58" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="elaqadn__Zsb7Rm-6npa-22" target="elaqadn__Zsb7Rm-6npa-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="500" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-61" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="elaqadn__Zsb7Rm-6npa-18" target="elaqadn__Zsb7Rm-6npa-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="370" />
+              <mxPoint x="610" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-64" value="STATE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-65" value="CONCRETE STATE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-66" value="CONCRETE STATE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-67" value="CONCRETE STATE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elaqadn__Zsb7Rm-6npa-68" value="Context" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
