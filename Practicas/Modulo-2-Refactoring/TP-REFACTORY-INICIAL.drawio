@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-05-24T03:08:28.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="3yPLWiXFI5XW7a7hEO9N" version="24.0.4" type="device">
+  <diagram name="Página-1" id="Vc7K25QVhXNCTd2zwa-w">
+    <mxGraphModel dx="1093" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bUEpOwavOAWjI7adcyKG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="bUEpOwavOAWjI7adcyKG-21" target="bUEpOwavOAWjI7adcyKG-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-38" value="llamadas *" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-37" vertex="1" connectable="0">
+          <mxGeometry x="0.4554" relative="1" as="geometry">
+            <mxPoint x="-5" y="55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-21" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="90" width="260" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-22" value="- tipo: String&lt;div&gt;- nombre: String&lt;/div&gt;&lt;div&gt;- numeroTelefono: String&lt;/div&gt;&lt;div&gt;- cuit: String&lt;/div&gt;&lt;div&gt;- dni: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-21" vertex="1">
+          <mxGeometry y="26" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#028090;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-21" vertex="1">
+          <mxGeometry y="110" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-24" value="+ &amp;lt;&amp;lt;create&amp;gt;&amp;gt; Cliente()&lt;div&gt;+ getTipo(): String&lt;/div&gt;&lt;div&gt;+ setTipo(tipo: String)&lt;/div&gt;&lt;div&gt;+ getNombre(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setNombre(nombre: String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getNumeroTelefono(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setNumeroTelefono(numeroTelefono: String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getCuit(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setCuit(cuit: String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getDNI(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setDNI(dni: String)&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-21" vertex="1">
+          <mxGeometry y="118" width="260" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="QxHfUo-zFuEqobTyTXvp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" edge="1" parent="1" source="bUEpOwavOAWjI7adcyKG-25" target="bUEpOwavOAWjI7adcyKG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxHfUo-zFuEqobTyTXvp-2" value="&lt;div&gt;*&lt;/div&gt;llamadas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" vertex="1" connectable="0" parent="QxHfUo-zFuEqobTyTXvp-1">
+          <mxGeometry x="0.22" y="1" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-25" value="Empresa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="310" width="490" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-26" value="+ &amp;lt;&amp;lt;static&amp;gt;&amp;gt; descuentoJur: Real&lt;div&gt;+ &amp;lt;&amp;lt;static&amp;gt;&amp;gt; descuentoFis: Real&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-25" vertex="1">
+          <mxGeometry y="26" width="490" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#028090;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-25" vertex="1">
+          <mxGeometry y="60" width="490" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-28" value="+ &amp;lt;&amp;lt;create&amp;gt;&amp;gt; Empresa()&lt;div&gt;+ agregarNumeroTelefono(str: String): Boolean&lt;/div&gt;&lt;div&gt;+ obtenerNumeroLibre(): String&lt;/div&gt;&lt;div&gt;+ registrarUsuario(data: String, nombre: String, tipo: String): Cliente&lt;/div&gt;&lt;div&gt;+ registrarLlamada(origen: Cliente, destino: Cliente, t: String, duracion: Integer): Llamada&lt;/div&gt;&lt;div&gt;+ calcularMontoTotalLlamadas(cliente: Cliente): Real&lt;/div&gt;&lt;div&gt;+ cantidadDeUsuarios(): Integer&lt;/div&gt;&lt;div&gt;+ existeUsuario(persona: Cliente): Boolean&lt;/div&gt;&lt;div&gt;+ getGestorNumeros(): GestorNumerosDisponibles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-25" vertex="1">
+          <mxGeometry y="68" width="490" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-29" value="GestorNumerosDisponibles" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="190" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-30" value="- lineas: String[*]&lt;div&gt;- tipoGenerador: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-29" vertex="1">
+          <mxGeometry y="26" width="240" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#028090;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-29" vertex="1">
+          <mxGeometry y="60" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-32" value="+ &amp;lt;&amp;lt;create&amp;gt;&amp;gt; GestorNumerosDisponibles()&lt;div&gt;+ getLineas(): String[*]&lt;/div&gt;&lt;div&gt;+ obtenerNumeroLibre(): String&lt;/div&gt;&lt;div&gt;+ cambiarTipoGenerador(valor: String)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-29" vertex="1">
+          <mxGeometry y="68" width="240" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-33" value="LLamada" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="40" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-34" value="- tipoDeLlamada: String&lt;div&gt;- origen: String&lt;/div&gt;&lt;div&gt;- destino: String&lt;/div&gt;&lt;div&gt;- duracion: Integer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-33" vertex="1">
+          <mxGeometry y="26" width="510" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#028090;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-33" vertex="1">
+          <mxGeometry y="90" width="510" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-36" value="+ &amp;lt;&amp;lt;create&amp;gt;&amp;gt; Llamada(tipoLlamada: String, origen: String, destino: String, duracion: Integer)&lt;div&gt;+ getTipoDeLlamada(): String&lt;/div&gt;&lt;div&gt;+ getRemitente(): String&lt;/div&gt;&lt;div&gt;+ getDuracion(): Integer&lt;/div&gt;&lt;div&gt;+ getOrigen(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-33" vertex="1">
+          <mxGeometry y="98" width="510" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="bUEpOwavOAWjI7adcyKG-28" target="bUEpOwavOAWjI7adcyKG-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-44" value="clientes *" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-39" vertex="1" connectable="0">
+          <mxGeometry x="0.1595" y="3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="bUEpOwavOAWjI7adcyKG-28" target="bUEpOwavOAWjI7adcyKG-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUEpOwavOAWjI7adcyKG-45" value="guia 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#E4FDE1;rounded=1;" parent="bUEpOwavOAWjI7adcyKG-41" vertex="1" connectable="0">
+          <mxGeometry x="0.37" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+PAra realizar un decorador deberemos tener en cuenta que el mismo surge a partir
+ de la implementacion de:
+
+1- (COMPONENTE) Una interfaz/clase-abstracta  el cual tendra la funcion 
+que sera compartida con todas las clases hijos/que la implemente + los getters que deberemos
+ implementar en clases hijos (en este ejercicio son todos getters que devuelve un string).
+lo que es String queda como esta, lo que es localdate.toString() y lo que es Double = Double.toString(var). 
+
+2- (Componente concreto) del tipo demandado en el ejercicio que implementara las funciones del *1*
+	 + constructor propio necesario del objeto. La funcion general dada por la interfaz
+	  debera ser generica :  "File Data:\n"
+3- (DECORADOR) que implementara el *1*. teniendo en cuenta todos los getters + tendrá como variable de
+	instancia un objeto del tipo *1* lo que posibilita la recursion. 
+4- (Decoradores concretos) Estos objetos posibilitan realizar combinaciones diferentes de objetos de 
+	forma dinamica durante la ejecucion del codigo. 
+
