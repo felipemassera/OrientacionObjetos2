@@ -11,11 +11,15 @@ import ar.edu.unlp.oo1.ejercicio1.ui.WallPostUI;
 
 public class Ejercicio1Application {
 
-	
-	
 	public static void main(String[] args) throws SecurityException, IOException {
-		Logger.getLogger("WallPostImp").addHandler(new FileHandler("/home/felipao/Escritorio/models.log"));
-		Logger.getLogger("WallPostUI").addHandler(new ConsoleHandler());
+		//FileHandler handler = new FileHandler("models.txt");
+		//ConsoleHandler handler = new ConsoleHandler();
+		EmailHandler handler = new EmailHandler();
+		//handler.setFormatter(new JSONFormatter());
+		Logger.getLogger("WallPostImp").addHandler(handler);
+		FileHandler handler2 = new FileHandler("ui.txt");
+		handler2.setFormatter(new JSONFormatter());
+		Logger.getLogger("WallPostUI").addHandler(handler2);
 
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {

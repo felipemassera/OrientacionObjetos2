@@ -1,0 +1,202 @@
+<mxfile host="Electron" modified="2024-06-28T21:27:46.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="4I35l8cuMbblRj5ajv3i" version="24.0.4" type="device">
+  <diagram name="Página-1" id="3VHDxOfYatUZAop5EqG4">
+    <mxGraphModel dx="1596" dy="1280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&amp;lt;abstract&amp;gt; P&lt;/span&gt;ieza" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="70" width="280" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-3" value="- nombre : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-5" value="+ &amp;lt;create&amp;gt; Pieza (nombre: string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-15" value="+ &amp;lt;abstract&amp;gt;getPotencia(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-14" value="+&amp;nbsp;&amp;nbsp;&amp;lt;abstract&amp;gt;getBateria(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-4" value="+&amp;nbsp; obtenerInfo(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="130" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-69" value="+ &amp;lt;abstract&amp;gt; getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-71" value="+&amp;nbsp; getBateria(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-75" value="+&amp;nbsp; getPotencia(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry y="208" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-6" value="PiezaSimple" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-412.5" y="354" width="250" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-7" value="- capacidadBateria:integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-8" value="- potencia :integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-56" value="+ &amp;lt;create&amp;gt; PiezaSimple (nombre: string, bat : Integer, potencia: integer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="78" width="250" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-51" value="+ getPotencia():integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="120" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-50" value="+ getBateria():integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="146" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-70" value="+&amp;nbsp; getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-6">
+          <mxGeometry y="172" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-10" target="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-10" target="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-10" value="PiezaCompuesta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="354" width="250" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-57" value="+ &amp;lt;create&amp;gt; Piezacompuesta (nombre: string)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="26" width="250" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-52" value="+ promedioPotencia():integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="50" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-54" value="+ promedioBateria():integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="76" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-83" value="+ getBateria(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="102" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-84" value="+ getPotencia(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="128" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-53" value="+ setEstrategia()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="154" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-58" value="+ agregarPieza()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="180" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-74" value="+&amp;nbsp; getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-10">
+          <mxGeometry y="206" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-16" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&amp;lt;abstract&amp;gt; Estrategy&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="316" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-20" value="+ &amp;lt;create&amp;gt; Estrategy()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-18" value="+ &amp;lt;abstract&amp;gt;getPotencia(pieza:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;PiezaCompuesta&lt;/span&gt;): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry y="52" width="280" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-59" value="+ &amp;lt;abstract&amp;gt;getBateria(pieza:&lt;span style=&quot;text-align: center;&quot;&gt;PiezaCompuesta&lt;/span&gt;): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry y="90" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MediaPotencia&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-60" value="+ &amp;lt;create&amp;gt; MediaPotencia()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-22">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-62" value="+ getBateria(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-22">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-61" value="+ getPotencia(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-22">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MaximaPotencia&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="316" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-63" value="+ &amp;lt;create&amp;gt; MediaPotencia()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-28">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-64" value="+ getBateria(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-28">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-65" value="+ getPotencia(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-28">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AhorroEnergia&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-66" value="+ &amp;lt;create&amp;gt; MediaPotencia()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-34">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-68" value="+ getPotencia(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-34">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-67" value="+ getBateria(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7Li3AoHl5Lct_APkpY4h-34">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-41" value="1&lt;div&gt;- estrategia&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-43" value="0..*&lt;div&gt;- piezas&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="133" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-44" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-6" target="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-240" y="340" as="sourcePoint" />
+            <mxPoint x="-80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-45" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-10" target="7Li3AoHl5Lct_APkpY4h-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-208" y="326" as="sourcePoint" />
+            <mxPoint x="-176" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-47" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-22" target="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-8" y="336" as="sourcePoint" />
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-48" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-28" target="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="248" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-49" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-34" target="7Li3AoHl5Lct_APkpY4h-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="258" as="sourcePoint" />
+            <mxPoint x="420" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-55" value="+ promedioBateria():integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="590" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Li3AoHl5Lct_APkpY4h-72" target="7Li3AoHl5Lct_APkpY4h-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-72" value="metodo plantilla" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="198" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-77" value="Concrete Strategy" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-78" value="Composite" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="80" y="316" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-79" value="Leaf" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-80" value="component" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-81" value="Strategy" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="274" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Li3AoHl5Lct_APkpY4h-82" value="context" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

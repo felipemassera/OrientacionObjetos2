@@ -1,0 +1,1 @@
+{ "Message":"La aplicación ha iniciado.", "level": "INFO" }

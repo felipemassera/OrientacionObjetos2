@@ -9,14 +9,13 @@ import java.util.logging.LoggingPermission;
  *
  */
 public class WallPostImpl implements WallPost {
-	private static Logger implementation = Logger.getLogger("WallPostImpl"); //creo logger
+	private static Logger implementation = Logger.getLogger("WallPostImp"); //creo logger
 	private String text;
 	private int likes;
 	private boolean isFeatured;
 
 	public WallPostImpl() {
 		this.text = "Undefined post";
-
 	}
 
 	public WallPostImpl(String text, int likes, boolean isFeaured) {
